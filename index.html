@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constellation Identifier</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+            background-image: url('constellation_bg.jpg'); /* Updated to use the saved image */
+            background-size: cover; /* Scale image to cover the full background */
+            background-position: center; /* Center the image */
+            background-attachment: fixed; /* Keep background fixed while scrolling */
+            color: white;
+            text-align: center;
+        }
+        .constellation-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .constellation-button {
+            background-color: #4B0082;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            width: 200px;
+            text-align: center;
+        }
+        .constellation-button:hover {
+            background-color: #6A0DAD;
+        }
+        #location-display {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+            font-size: 14px;
+            text-align: left;
+        }
+    </style>
+    <script>
+        async function getUserLocation() {
+            try {
+                const response = await fetch('https://ipapi.co/json/');
+                const locationData = await response.json();
+
+                console.log('Location Data:', locationData); // Debugging line
+
+                displayLocation(locationData);
+            } catch (error) {
+                console.error('Error fetching location:', error);
+            }
+        }
+
+        function displayLocation(locationData) {
+            const locationDisplay = document.getElementById('location-display');
+            
+            // Check if data exists and log it
+            console.log('Display Data:', locationData);
+            
+            locationDisplay.innerHTML = `
+                Coordinates: ${locationData.latitude}, ${locationData.longitude} <br>
+                Country: ${locationData.country_name} <br>
+                ${locationData.region ? 'Region: ' + locationData.region + '<br>' : ''}
+                ${locationData.city ? 'City: ' + locationData.city : ''}
+            `;
+        }
+
+        function loadConstellations() {
+            fetch('/constellations?latitude=22.0063&longitude=77.006')
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.getElementById('constellation-container');
+                    data.forEach(item => {
+                        const link = document.createElement('a');
+                        link.href = `/constellation/${item.name}`;
+                        link.textContent = item.name;
+                        link.className = 'constellation-button';
+                        container.appendChild(link);
+                    });
+                })
+                .catch(err => console.error(err));
+        }
+
+        window.onload = function() {
+            loadConstellations();
+            getUserLocation();
+        }
+    </script>
+</head>
+<body>
+    <h1>Visible Constellations</h1>
+    <div id="constellation-container" class="constellation-list"></div>
+    <div id="location-display"></div>
+</body>
+</html>

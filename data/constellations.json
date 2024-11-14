@@ -1,0 +1,530 @@
+[
+    {
+        "name": "Andromeda",
+        "description": "Named after a princess in Greek mythology, Andromeda is home to the Andromeda Galaxy.",
+        "month_visible": "September to December",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Aquarius",
+        "description": "Represents a water bearer, often associated with the harvest.",
+        "month_visible": "October to March",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia", "New Zealand"]
+    },
+    {
+        "name": "Aquila",
+        "description": "The Eagle, associated with Zeus and often depicted as carrying Ganymede.",
+        "month_visible": "July to October",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Aries",
+        "description": "Represents the ram, associated with the Greek myth of the Golden Fleece.",
+        "month_visible": "October to December",
+        "region": "Northern Hemisphere",
+        "continent": "Europe",
+        "countries": ["Italy", "Greece", "Spain"]
+    },
+    {
+        "name": "Cassiopeia",
+        "description": "The Queen, known for its distinctive W shape.",
+        "month_visible": "September to December",
+        "region": "Northern Hemisphere",
+        "continent": "Europe",
+        "countries": ["UK", "Scandinavia"]
+    },
+    {
+        "name": "Centaurus",
+        "description": "A centaur known for containing Alpha Centauri, the closest star system to Earth.",
+        "month_visible": "April to August",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia", "New Zealand"]
+    },
+    {
+        "name": "Cepheus",
+        "description": "The King, representing a mythological figure and often depicted as a house shape.",
+        "month_visible": "September to December",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Cetus",
+        "description": "The Whale, associated with the myth of Perseus and Andromeda.",
+        "month_visible": "November to February",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia", "New Zealand"]
+    },
+    {
+        "name": "Chamaeleon",
+        "description": "The Chameleon, a faint constellation in the southern sky.",
+        "month_visible": "March to October",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Circinus",
+        "description": "The Compass, representing a drafting tool.",
+        "month_visible": "April to July",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Columba",
+        "description": "The Dove, often seen as a symbol of peace.",
+        "month_visible": "January to March",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Coma Berenices",
+        "description": "Berenice's Hair, named after the Egyptian queen Berenice II.",
+        "month_visible": "April to June",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Corona Australis",
+        "description": "The Southern Crown, representing a circular crown.",
+        "month_visible": "June to August",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia", "New Zealand"]
+    },
+    {
+        "name": "Corona Borealis",
+        "description": "The Northern Crown, associated with the myth of Ariadne.",
+        "month_visible": "May to July",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Crater",
+        "description": "The Cup, representing a drinking vessel.",
+        "month_visible": "April to July",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Crux",
+        "description": "The Southern Cross, a prominent feature of the southern sky.",
+        "month_visible": "March to September",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia", "New Zealand"]
+    },
+    {
+        "name": "Cygnus",
+        "description": "The Swan, often associated with the myth of Zeus transforming into a swan.",
+        "month_visible": "June to October",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Delphinus",
+        "description": "The Dolphin, associated with the story of Arion.",
+        "month_visible": "August to November",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Doradus",
+        "description": "The Goldfish, a faint southern constellation.",
+        "month_visible": "January to April",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia", "New Zealand"]
+    },
+    {
+        "name": "Draco",
+        "description": "The Dragon, representing the dragon guarding the golden fleece.",
+        "month_visible": "April to September",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Equuleus",
+        "description": "The Little Horse, a small constellation near Pegasus.",
+        "month_visible": "August to October",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Eridanus",
+        "description": "The River, representing the Po River in Italy.",
+        "month_visible": "October to March",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia", "New Zealand"]
+    },
+    {
+        "name": "Fornax",
+        "description": "The Furnace, representing a laboratory furnace.",
+        "month_visible": "January to March",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Gemini",
+        "description": "The Twins, representing Castor and Pollux in Greek mythology.",
+        "month_visible": "November to February",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Grus",
+        "description": "The Crane, associated with the waterbird.",
+        "month_visible": "September to February",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia", "New Zealand"]
+    },
+    {
+        "name": "Hercules",
+        "description": "The Hero, known for its great star cluster, M13.",
+        "month_visible": "May to September",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Horologium",
+        "description": "The Clock, representing a timekeeping device.",
+        "month_visible": "November to February",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Hydra",
+        "description": "The Water Snake, the largest constellation in the sky.",
+        "month_visible": "March to September",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia", "New Zealand"]
+    },
+    {
+        "name": "Hydrus",
+        "description": "The Water Snake, a smaller constellation near the South Pole.",
+        "month_visible": "March to October",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Indus",
+        "description": "The Indian, representing a native of South America.",
+        "month_visible": "September to December",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Lacerta",
+        "description": "The Lizard, a small constellation between Cygnus and Pegasus.",
+        "month_visible": "July to October",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Leo",
+        "description": "The Lion, representing bravery and strength.",
+        "month_visible": "January to May",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Leo Minor",
+        "description": "The Little Lion, a small constellation near Leo.",
+        "month_visible": "January to June",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Lepus",
+        "description": "The Hare, often depicted as a prey for the constellation Orion.",
+        "month_visible": "November to March",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Libra",
+        "description": "The Scales, representing balance and justice.",
+        "month_visible": "April to October",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Lupus",
+        "description": "The Wolf, often seen in the southern sky.",
+        "month_visible": "April to August",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Microscopium",
+        "description": "The Microscope, representing a scientific instrument.",
+        "month_visible": "November to February",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Monoceros",
+        "description": "The Unicorn, representing a mythical creature.",
+        "month_visible": "December to March",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Musca",
+        "description": "The Fly, representing the insect.",
+        "month_visible": "March to September",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Norma",
+        "description": "The Carpenter's Square, representing a tool for construction.",
+        "month_visible": "May to August",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Octans",
+        "description": "The Octant, a navigational instrument used at sea.",
+        "month_visible": "January to March",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Orion",
+        "description": "The Hunter, known for its bright stars and the Orion Nebula.",
+        "month_visible": "October to April",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Pavo",
+        "description": "The Peacock, representing the beautiful bird.",
+        "month_visible": "May to September",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Pegasus",
+        "description": "The Winged Horse, known for its square shape and bright stars.",
+        "month_visible": "August to November",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Perseus",
+        "description": "The Hero, associated with the myth of Medusa.",
+        "month_visible": "November to March",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Phoenix",
+        "description": "The Phoenix, representing the mythical bird that rises from its ashes.",
+        "month_visible": "September to December",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Pictor",
+        "description": "The Painter's Easel, a faint constellation in the southern sky.",
+        "month_visible": "January to May",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Pisces",
+        "description": "The Fishes, representing the two fish associated with Aphrodite.",
+        "month_visible": "September to December",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Pyxis",
+        "description": "The Compass Box, representing a nautical instrument.",
+        "month_visible": "February to June",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Reticulum",
+        "description": "The Net, representing a grid or web.",
+        "month_visible": "November to April",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Sagittarius",
+        "description": "The Archer, representing a centaur shooting an arrow.",
+        "month_visible": "May to September",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Scorpius",
+        "description": "The Scorpion, often associated with the myth of Orion.",
+        "month_visible": "May to September",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Sculptor",
+        "description": "The Sculptor, representing an artist at work.",
+        "month_visible": "November to February",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Scutum",
+        "description": "The Shield, representing a protective shield.",
+        "month_visible": "April to July",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Serpens",
+        "description": "The Serpent, representing the snake that is often depicted with Ophiuchus.",
+        "month_visible": "May to October",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Taurus",
+        "description": "The Bull, associated with the myth of the Minotaur.",
+        "month_visible": "November to March",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Telescopium",
+        "description": "The Telescope, representing the optical instrument.",
+        "month_visible": "August to November",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Triangulum",
+        "description": "The Triangle, a small constellation near Andromeda.",
+        "month_visible": "September to November",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Triangulum Australe",
+        "description": "The Southern Triangle, representing a triangle in the southern sky.",
+        "month_visible": "May to September",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Tucana",
+        "description": "The Toucan, a constellation representing the tropical bird.",
+        "month_visible": "October to February",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Ursa Major",
+        "description": "The Great Bear, known for the Big Dipper asterism.",
+        "month_visible": "January to December",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Ursa Minor",
+        "description": "The Little Bear, containing the North Star, Polaris.",
+        "month_visible": "January to December",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Vela",
+        "description": "The Sails, representing the sails of a ship.",
+        "month_visible": "March to August",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Virgo",
+        "description": "The Virgin, often associated with agriculture and fertility.",
+        "month_visible": "March to August",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    },
+    {
+        "name": "Volans",
+        "description": "The Flying Fish, a southern constellation.",
+        "month_visible": "October to February",
+        "region": "Southern Hemisphere",
+        "continent": "Australia",
+        "countries": ["Australia"]
+    },
+    {
+        "name": "Vulpecula",
+        "description": "The Little Fox, a small constellation near Cygnus.",
+        "month_visible": "July to October",
+        "region": "Northern Hemisphere",
+        "continent": "North America",
+        "countries": ["USA", "Canada"]
+    }
+]
