@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 
 // Load the constellations data
 const constellationsData = fs.readFileSync('./data/constellations.json', 'utf8');
